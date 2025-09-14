@@ -1,0 +1,231 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+  font-style: italic;
+    background-color: #47362e;
+    color: #a89479;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    color: #a89479;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #1c1a18;
+    width: 99%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    animation: fadeIn 3s;
+}
+
+.navbar a {
+    color: #a89479;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+    
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    
+}
+.tagline {
+    position: relative;
+    height: 396px;
+    width: 589px;
+    border-radius: 15px;
+    background-color: #1c1a18; 
+    font-size: 40px; 
+    animation: fadeIn 3s;
+       
+}
+.tagline p {
+    position: absolute;
+    bottom: 0px;
+    padding: 30px;
+    width: 85%;
+    
+}
+.tagline img {
+    width: auto;
+    height: 120px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    animation: rotate 5s;
+}
+
+.profile-image {
+    background-color: #1c1a18;
+    width: auto;
+    height: 396px;
+    border-radius: 10px;
+    animation: fadeIn 3s;
+    
+}
+
+.projects {
+    position: relative;
+    height: 572px;
+    width: 441px;
+    border-radius: 15px;
+    background-color: #1c1a18;  
+    animation: fadeIn 3s;     
+}
+.projects a {
+    color: #a89479;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+    font-size: 10px;   
+}
+.projects a:hover{
+      transform: scale(1.05);
+      filter: brightness(80%);
+    }
+.projects div {
+     
+     width: 89%;
+     margin: auto;
+}
+.material-symbols-outlined .arrow{
+  font-size: 23px;
+  position: absolute;
+  right: 32px;
+  top: 35px;
+  color: #a89479;
+}
+.projects img {
+    width: 391px;
+    height: 228px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: -18px;
+    margin-bottom: 20px;
+    opacity: 60%;
+}
+.pipsdiv {
+ border-bottom: 1px solid #a894799c;
+}
+.akmotors {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a894799c;
+}
+
+
+.about {
+    background-color: #1c1a18;
+    border-radius: 10px;
+    padding: 10px;
+    height: 235px;
+    width: 400px;
+    position: absolute;
+    bottom: 0px;
+    left: 8px;
+    animation: fadeIn 3s;
+}
+.about p {
+    position: absolute;
+    bottom: 20px;
+    padding-right: 80px;
+}
+.about img {
+    width: auto;
+    height: 45px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.contactme {
+     background-color: #a89479;
+     color: #1c1a18;
+    border-radius: 10px;
+    padding: 10px;
+    height: 235px;
+    width: 450px;
+    position: absolute;
+    bottom: 0px;
+    left: 430px;
+    animation: fadeIn 3s;
+}
+.contactme a {
+    color: #1c1a18;
+    text-decoration: none;
+    font-style: normal;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+    position: absolute;
+    bottom: 10px;
+    font-size: 60px;
+}
+
+
+.material-symbols-outlined a{
+  font-size: 30px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: #1c1a18;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1c1a18;
+    height: 60px;
+    width: 441px;
+    border-radius: 10px;
+    margin-left: 66%;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    animation: fadeIn 3s;
+    
+}
+.sm-icon {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+.sm-icon:hover{
+      transform: scale(1.05);
+      filter: brightness(80%);
+    }
+
+
+
+@keyframes fadeIn {
+    from { transform: scale(0.5); } 
+    to { transform: scale(1); }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to {transform: rotate(360deg);}
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #DBC2A6;
+    color: #414A37;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    </style>
+</head>
+<body>
+        <section id="contact" class="contact">
+            <h3>Contact Me</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+</body>
+</html>
