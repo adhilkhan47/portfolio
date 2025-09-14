@@ -1395,6 +1395,12 @@
     .container {
         gap: 9.70px;
     }
+     .navbar {
+        font-size: small;
+    }
+    .navbar a {
+        font-size: small;
+    }
     .tagline {
         height: 265.08px;   
         width: 254.37px;    
@@ -1415,7 +1421,7 @@
         height: 440.71px;   
         width: 235.54px;    
         font-size: 1px;  
-        margin-bottom: 70px;
+        margin-bottom: 80px;
     }
 
     .projects img {
@@ -1448,7 +1454,7 @@
         height: 139.69px;   
         width: 195.69px;    
         left: 55.5%;         
-        bottom: 70.38px;   
+        bottom: 80.38px;   
     }
     .contactme .context {
         font-size: 29.46px; 
@@ -1462,16 +1468,22 @@
 
     .social-links {
         position: absolute;
-        bottom: 0px;         
-        left: 0px;       
+        bottom: 10px;         
+        left: 1%;       
         height: 60.35px;    
-        width: 100%;    
-        margin-left: 0px;  
+        width: 98%;         
+         
     }
 }
 @media (max-width: 441px) {                
     .container {
         gap: 9.41px;
+    }
+    .navbar {
+        font-size: small;
+    }
+    .navbar a {
+        font-size: small;
     }
     .tagline {
         height: 257.13px;  
@@ -1493,7 +1505,7 @@
         height: 427.49px;   
         width: 228.47px;    
         font-size: 0.97px;  
-        margin-bottom: 67.89px; 
+    
     }
 
     .projects img {
@@ -1526,7 +1538,7 @@
         height: 135.50px;  
         width: 189.82px;    
         left: 55.5%;       
-        bottom: 68.27px;    
+        
     }
     .contactme .context {
         font-size: 28.58px; 
@@ -1539,12 +1551,11 @@
     }
 
     .social-links {
-        position: absolute;
-        bottom: 0px;         
-        left: 0px;       
+        position: absolute;         
+        left: 1%;       
         height: 58.54px;    
-        width: 100%;         
-        margin-left: 0px;  
+        width: 98%;         
+        margin-left: 0%;  
     }
 }
 @media (max-width: 428px) {                 
@@ -1570,8 +1581,6 @@
     .projects {
         height: 414.67px;   
         width: 221.62px;    
-    
-        margin-bottom: 65.85px; 
     }
     .projects a {
         font-size: 9px;
@@ -1606,8 +1615,7 @@
     .contactme {
         height: 131.43px;   
         width: 184.13px;    
-        left: 55.5%;      
-        bottom: 66.22px;    
+        left: 55.5%;          
     }
     .contactme .context {
         font-size: 27.72px; 
@@ -1620,11 +1628,10 @@
     }
 
     .social-links {
-        position: absolute;
-        bottom: 0px;         
-        left: 0px;       
+        position: absolute;        
+        left: 1%;       
         height: 56.78px;    
-        width: 100%;         
+        width: 98%;         
         margin-left: 0px;  
     }
 }
@@ -1651,7 +1658,6 @@
     .projects {
         height: 402.23px;  
         width: 215.00px;    
-        margin-bottom: 63.88px; 
     }
     .projects a {
         font-size: 8.73px; 
@@ -1687,7 +1693,7 @@
         height: 127.49px;   
         width: 178.61px;    
         left: 55.5%;       
-        bottom: 64.23px;    
+       
     }
     .contactme .context {
         font-size: 26.89px; 
@@ -1701,10 +1707,10 @@
 
     .social-links {
         position: absolute;
-        bottom: 0px;         
-        left: 0px;       
+            
+          
         height: 55.08px;    
-        width: 100%;         
+        width: 98%;         
         margin-left: 0px;  
     }
 }
@@ -1731,7 +1737,7 @@
     .projects {
         height: 386.14px; 
         width: 206.40px;    
-        margin-bottom: 61.32px; 
+    
     }
     .projects a {
         font-size: 8px; 
@@ -1767,7 +1773,7 @@
         height: 122.39px;   
         width: 171.47px;    
         left: 55.5%;       
-        bottom: 61.66px;    
+       
     }
     .contactme .context {
         font-size: 25.81px; 
@@ -1780,11 +1786,10 @@
     }
 
     .social-links {
-        position: absolute;
-        bottom: 0px;         
-        left: 0px;       
+        position: absolute;        
+        left: 1%;       
         height: 52.88px;    
-        width: 100%;         
+        width: 98%;         
         margin-left: 0px;  
     }
 }
@@ -1816,8 +1821,7 @@
 
     .projects {
         height: 366.83px;   
-        width: 196.08px;    
-        margin-bottom: 58.25px; 
+        width: 196.08px;     
     }
     .projects a {
         font-size: 7.60px; 
@@ -1853,7 +1857,7 @@
         height: 116.27px;   
         width: 162.90px;    
         left: 55.5%;       
-        bottom: 58.58px;    
+      
     }
     .contactme .context {
         font-size: 24.52px;
@@ -1866,11 +1870,10 @@
     }
 
     .social-links {
-        position: absolute;
-        bottom: 0px;         
-        left: 0px;       
+        position: absolute;        
+        left: 1%;       
         height: 50.24px;   
-        width: 100%;         
+        width: 98%;         
         margin-left: 0px;  
     }
 }
