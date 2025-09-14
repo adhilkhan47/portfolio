@@ -124,7 +124,7 @@ body {
 .projects img {
     width: 391px;
     height: 228px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-top: 10px;
     margin-left: -18px;
     margin-bottom: 20px;
@@ -228,4 +228,5 @@ body {
     from { transform: rotate(0deg); }
     to {transform: rotate(360deg);}
 }
+
 
